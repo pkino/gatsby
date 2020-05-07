@@ -3,6 +3,12 @@
   "description": "Gatsby's Website",
   "version": "2.0.0",
   "dependencies": {
-    "gatsby-site-theme": "2.0.0"
+    "gatsby": "^2.21.11",
+    "gatsby-site-theme": "*"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop"
   }
 }
