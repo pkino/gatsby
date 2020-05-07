@@ -149,6 +149,7 @@
     "watch": "lerna run watch --no-sort --stream --concurrency 999"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "www"
   ]
 }
